@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {   
+    background-image: url('https://i.pinimg.com/564x/dc/d3/a3/dcd3a3d0fddf37abea7bdfe47252a9e7.jpg'); 
+    height: 150px;
+    width: auto;
+    color: #703b3b;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.action-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.action-button:hover {
+    background-color: #0056b3;
+}
+
+.features {
+ display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.feature {
+    margin: 10px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.feedback-section {
+    padding: 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.feedbackForm {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.feedbackForm label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.feedbackForm input,
+.feedbackForm
+ textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.feedbackForm button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.feedbackForm button:hover {
+    background-color: #0056b3;
+}
+
+.hidden {
+    display: none;
+}
+
+footer {
+    background-image: url('https://i.pinimg.com/564x/39/49/fd/3949fd4fb11823d9425dea01e48f4723.jpg'); /* Add a background image */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
